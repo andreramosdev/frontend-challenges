@@ -1,32 +1,36 @@
 .barcode-card {
+    flex: 0 1 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
-    /* height: 800px; */
-    background-color: hsl(0, 0%, 100%);
-}
 
-body {
-    background-color: hsl(212, 45%, 89%);
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .barcode-card__instructions {
     text-align: justify;
-    padding: 71px;
+    padding: 30px;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
 }
 
 .barcode-card__image {
     border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 .container {
-    /* height: 900px; */
-    flex: 1 1 25em;
+    background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* p {
+    background-color: red;
+    width: 24em;
+    word-wrap: break-word;   
+} */
