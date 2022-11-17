@@ -26,6 +26,7 @@
 
 .barcode-card__description {
     font-weight: 400;
+    font-style: italic;
     text-align: center;
     padding: 0 30px;
 }
