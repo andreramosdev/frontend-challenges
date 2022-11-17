@@ -1,24 +1,24 @@
 .barcode-card {
-    flex: 0 1 25em;
     display: flex;
     flex-direction: column;
+    flex: 0 1 25em;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-
-    margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
 .barcode-card__title {
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     padding: 0 30px;
 }
 
 .barcode-card__description {
+    font-weight: 400;
     text-align: center;
     padding: 0 30px;
 }
